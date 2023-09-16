@@ -1,0 +1,85 @@
+header{
+    background-color: rgb(245, 222, 90);
+    width: 100%;
+    height: 130px;
+}
+body{
+    margin: 0;
+}
+header img{
+    float: left;
+    padding: 15px;
+}
+header nav{
+    float: right;
+    padding: 55px;
+}
+header nav a{
+    color: rgb(245, 222, 90);
+    text-decoration: none;
+    background: black;
+    padding: 15px 40px;
+    border-radius: 25px;
+}
+header nav a:hover{
+    background-color: rgb(44, 42, 42);
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.banner .layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.banner .content{
+    width: 800px;
+    height: 400px;
+    margin-left: 30%;
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.banner .content a,a{
+    color: rgb(245, 222, 90);
+    text-decoration: none;
+    background: black;
+    padding: 15px 40px;
+    border-radius: 25px;
+}
+.banner .content a:hover,a:hover{
+    background-color: rgb(44, 42, 42);
+}
+.aoslibrary{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+.services{
+    width: 100%;
+    height: 300px;
+    
+}
+.services .ser1{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(245, 222, 90);
+    border-radius: 50px;
+    padding: 40px;
+    font-size: large;
+}
+.services .ser2{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(245, 222, 90);
+    border-radius: 50px;
+    padding: 40px;
+    font-size: large;
+    margin-left: 45%;
+}
+
